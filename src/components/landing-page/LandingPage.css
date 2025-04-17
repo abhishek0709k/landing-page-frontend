@@ -1,0 +1,41 @@
+/* LandingPage.css */
+.landing-container {
+    padding: 2rem;
+    text-align: center;
+  }
+  .landing-container h1{
+    padding: 25px;
+  }
+  .landing-container p{
+    padding-bottom: 25px;
+  }
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: 20px;
+  }
+  
+  .feature {
+    flex: 1 1 150px;
+    padding: 1rem;
+    background: #f3f3f3;
+    border-radius: 10px;
+    color: black;
+  }
+  .dropdown-content a{
+    padding: 10px;
+  }
+  @media (max-width: 768px) {
+    .features {
+      flex-direction: column;
+    }
+  }
+  .join-btn{
+    color: white;
+  }
+  .join-btn:hover {
+    color: rgba(0, 0, 0, 0.664);
+  }
+  
